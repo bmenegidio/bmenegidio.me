@@ -8,6 +8,7 @@ export const Heading = ({ children, className, variant }: Props) => (
       'font-heading text-4xl': variant === 'title',
       'font-heading text-3xl': variant === 'subtitle',
       'font-body text-base font-normal leading-5': variant === 'body',
+      'font-body text-sm font-normal leading-5': variant === 'caption',
     })}
   >
     {children}
