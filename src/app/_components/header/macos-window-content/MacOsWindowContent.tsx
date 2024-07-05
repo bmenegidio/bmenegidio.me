@@ -1,6 +1,9 @@
 export const MacOsWindowContent = () => (
   <div className="flex flex-col gap-3.5">
     <pre className="whitespace-pre-wrap text-sm">
+      <code className={'text-dracula-pink'}>{`import Coffee from 'cup'`}</code>
+    </pre>
+    <pre className="whitespace-pre-wrap text-sm">
       <code className={'text-dracula-pink'}>{`const message = 'Olá, seja Bem-vindo!'`}</code>
     </pre>
 
