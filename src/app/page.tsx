@@ -1,4 +1,5 @@
 import { Header } from '@/app/_components/header/Header';
+import { Stack } from '@/app/_components/stack/Stack';
 import { WhoIam } from '@/app/_components/who-iam/WhoIam';
 
 export default function Home() {
@@ -6,7 +7,11 @@ export default function Home() {
     <div className={'w-screen'}>
       <main>
         <Header />
-        <WhoIam />
+        <div className={'relative z-10'}>
+          <WhoIam />
+        </div>
+
+        <Stack />
       </main>
     </div>
   );

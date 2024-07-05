@@ -1,0 +1,10 @@
+section::before {
+    content: '';
+    background-image: url("/dots-left.svg");
+    position: absolute;
+    left: -2%;
+    top: 5%;
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+}
