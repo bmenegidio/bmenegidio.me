@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
 
-export type MacOSWindowProps = {
+export type MacOSWindowProps = Pick<React.ComponentProps<'div'>, 'className'> & {
   children: ReactElement;
 };
