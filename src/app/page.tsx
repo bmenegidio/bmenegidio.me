@@ -1,5 +1,6 @@
 'use client';
 
+import { Footer } from '@/app/_components/footer/Footer';
 import { Header } from '@/app/_components/header/Header';
 import { Stack } from '@/app/_components/stack/Stack';
 import { WhoIam } from '@/app/_components/who-iam/WhoIam';
@@ -20,6 +21,8 @@ export default function Home() {
         <FadeInWhenVisible>
           <Stack />
         </FadeInWhenVisible>
+
+        <Footer />
       </main>
     </div>
   );
