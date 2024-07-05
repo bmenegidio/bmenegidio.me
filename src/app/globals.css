@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+    color: theme('colors.textColor');
+    background: theme('colors.primary');
+}
+
 body {
     background: theme('colors.background');
     color: theme('colors.textColor');
