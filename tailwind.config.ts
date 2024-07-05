@@ -1,20 +1,42 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
+import { PluginAPI } from 'tailwindcss/types/config';
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        background: '#0E0D11',
+        foreground: '#1C1B22',
+        textColor: '#fff',
+        dracula: {
+          background: '#282A36',
+          pink: '#FF79C6',
+          border: '#2b2833',
+        },
+        primary: '#FF79C6',
+      },
+      fontFamily: {
+        body: 'var(--body-font)',
+        code: 'var(--code-font)',
+        heading: 'var(--heading-font)',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }: PluginAPI) {
+      const newUtilities = {
+        '.mask-gradient-to-top': {
+          maskImage: 'linear-gradient(to top, transparent 0%, black 50%)',
+        },
+      };
+
+      addUtilities(newUtilities);
+    },
+  ],
 };
 export default config;
