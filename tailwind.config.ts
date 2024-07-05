@@ -27,11 +27,20 @@ const config: Config = {
       },
       animation: {
         'rotate-keyframes': 'rotate-keyframes 50s linear infinite',
+        'fade-in': 'fade-in 1.5s forwards',
       },
       keyframes: {
         'rotate-keyframes': {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(360deg)' },
+        },
+        'fade-in': {
+          from: {
+            opacity: '0',
+          },
+          to: {
+            opacity: '1',
+          },
         },
       },
     },
