@@ -25,6 +25,15 @@ const config: Config = {
         code: 'var(--code-font)',
         heading: 'var(--heading-font)',
       },
+      animation: {
+        'rotate-keyframes': 'rotate-keyframes 50s linear infinite',
+      },
+      keyframes: {
+        'rotate-keyframes': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
     },
   },
   plugins: [
