@@ -1,9 +1,11 @@
-import Image from 'next/image';
+import { Header } from '@/app/_components/header/Header';
 
 export default function Home() {
   return (
-    <main>
-      <p>Test</p>
-    </main>
+    <div className={'w-screen'}>
+      <main>
+        <Header />
+      </main>
+    </div>
   );
 }
