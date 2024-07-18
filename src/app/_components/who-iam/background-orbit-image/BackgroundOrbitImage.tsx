@@ -8,7 +8,7 @@ export const BackgroundOrbitImage = ({ className }: Props) => (
     alt="orbital-animation"
     width="250"
     height="250"
-    src="/orbital-shape.svg"
-    className={clsx('animate-rotate-keyframes absolute z-0', className)}
+    src="./orbital-shape.svg"
+    className={clsx('absolute z-0 animate-rotate-keyframes', className)}
   />
 );

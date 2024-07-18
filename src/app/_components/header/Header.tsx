@@ -11,7 +11,7 @@ export const Header = () => (
   >
     <Content>
       <div className={'flex flex-col gap-2'}>
-        <Avatar src={'/avatar.jpeg'} />
+        <Avatar src={'./avatar.jpeg'} />
 
         <div className="max-w-[550px]">
           <Heading variant={'title'}>Desenvolvedor Web 🧑🏻‍💻❤️, entusiasta de Clean Code e Clean Architecture.</Heading>
