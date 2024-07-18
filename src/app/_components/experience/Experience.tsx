@@ -8,7 +8,7 @@ export const Experience = () => (
     <Content className={'p-10'}>
       <Heading variant={'subtitle'}>Experiência Profissional</Heading>
 
-      <div className={'m-10'}>
+      <div className={'my-10 ml-10'}>
         {experiencesData.map((item) => (
           <Timeline.Item key={item.id}>
             <div className={'flex flex-col gap-8'}>
