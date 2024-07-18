@@ -18,7 +18,7 @@ const config: Config = {
           pink: '#FF79C6',
           border: '#2b2833',
         },
-        primary: '#FF79C6',
+        primary: '#4EA75C',
       },
       fontFamily: {
         body: 'var(--body-font)',
