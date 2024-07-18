@@ -1,0 +1,15 @@
+.balloon {
+    @apply relative rounded-2xl text-black mb-10 w-full;
+    background-color: #e0f4f8;
+    padding: 1rem;
+}
+
+.balloon::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 100%;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent #e0f4f8 transparent transparent;
+}
