@@ -7,7 +7,7 @@ import { MacOSWindow } from '@/components/widgets/macos-window/MacOSWindow';
 export const Header = () => (
   <header
     className="relative flex flex-col gap-20 bg-cover bg-center p-5 pt-20 mask-gradient-to-top"
-    style={{ backgroundImage: 'url(/space.png)' }}
+    style={{ backgroundImage: 'url(./space.png)' }}
   >
     <Content>
       <div className={'flex flex-col gap-2'}>
