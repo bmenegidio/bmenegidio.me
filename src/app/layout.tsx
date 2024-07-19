@@ -8,7 +8,7 @@ const jetBrains_Mono = JetBrains_Mono({ subsets: ['latin'], variable: '--code-fo
 const patua_One = Patua_One({ weight: ['400'], subsets: ['latin'], variable: '--heading-font' });
 
 export const metadata: Metadata = {
-  title: 'Bruno Menegidio da Silva - Full Stack Software Engineer',
+  title: 'Bruno Menegidio da Silva - Software Engineer',
   description:
     'Desenvolvedor Web, com experiência em tecnologias como; Angular, React.JS, Next.JS, Node.JS, Nest.JS, MongoDB..',
 };
