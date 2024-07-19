@@ -4,7 +4,7 @@ export const MacOsWindowContent = () => (
       <code className={'text-dracula-pink'}>{`import Coffee from 'cup'`}</code>
     </pre>
     <pre className="whitespace-pre-wrap text-sm">
-      <code className={'text-dracula-pink'}>{`const message = 'Olá, seja Bem-vindo!'`}</code>
+      <code className={'text-dracula-pink'}>{`const message = 'Hello, welcome!'`}</code>
     </pre>
 
     <div className="flex flex-col gap-1">

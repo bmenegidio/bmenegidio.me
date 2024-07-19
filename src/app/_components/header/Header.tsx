@@ -14,7 +14,8 @@ export const Header = () => (
         <Avatar src={'./avatar.jpeg'} />
 
         <div className="max-w-[550px]">
-          <Heading variant={'title'}>Desenvolvedor Web 🧑🏻‍💻❤️, entusiasta de Clean Code e Clean Architecture.</Heading>
+          <Heading variant={'title'}>Bruno Menegidio</Heading>
+          <Heading variant={'title'}>Software Engineer 🧑🏻‍💻❤️</Heading>
           <MacOSWindow className={'my-10'}>
             <MacOsWindowContent />
           </MacOSWindow>

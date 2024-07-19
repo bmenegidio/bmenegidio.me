@@ -8,12 +8,13 @@ import { SocialNetwork } from '@/components/widgets/social-network/SocialNetwork
 export const WhoIam = () => (
   <section>
     <Content className={'flex items-center justify-center'}>
-      <div className={'bg-foreground -mt-5 rounded-3xl border-2 border-dashed border-gray-500 md:max-w-[550px]'}>
+      <div className={'-mt-5 rounded-3xl border-2 border-dashed border-gray-500 bg-foreground md:max-w-[550px]'}>
         <div className={'relative min-h-[300px] overflow-hidden p-10'}>
           <Heading variant={'body'}>
             Eu me chamo Bruno Menegidio, sou desenvolvedor web. Com uma paixão por inovação e desempenho, estou sempre
             em busca de novas maneiras de melhorar a experiência do usuário e otimizar o desenvolvimento de aplicações
-            web.
+            web. Atualmente, tenho estudado bastante sobre Clean Architecture e Clean Code e aplicado esses conceitos ao
+            desenvolvimento web.
           </Heading>
           <Heading variant={'body'} className={'mt-1'}>
             Seja bem-vindo ao meu espaço online!
