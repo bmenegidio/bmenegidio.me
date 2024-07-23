@@ -11,9 +11,7 @@ import { FadeInWhenVisible } from '@/components/animations/fade-in-when-visible/
 export default function Home() {
   return (
     <main>
-      <FadeInWhenVisible>
-        <Header />
-      </FadeInWhenVisible>
+      <Header />
 
       <FadeInWhenVisible className={'relative z-10'}>
         <WhoIam />
