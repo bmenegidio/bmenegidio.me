@@ -1,6 +1,6 @@
 'use client';
 
-import { ChosenTechnologies } from '@/app/_components/chosenTechnologies/ChosenTechnologies';
+import { ChosenTechnologies } from '@/app/_components/chosen-technologies/ChosenTechnologies';
 import { Experience } from '@/app/_components/experience/Experience';
 import { Footer } from '@/app/_components/footer/Footer';
 import { Header } from '@/app/_components/header/Header';
