@@ -28,6 +28,8 @@ const config: Config = {
       animation: {
         'rotate-keyframes': 'rotate-keyframes 50s linear infinite',
         'fade-in': 'fade-in 1.5s forwards',
+        'pull-up': 'pull-up 1s 200ms forwards ease-in-out',
+        'pull-down': 'pull-down 1s 200ms forwards ease-in-out',
       },
       keyframes: {
         'rotate-keyframes': {
@@ -39,6 +41,32 @@ const config: Config = {
             opacity: '0',
           },
           to: {
+            opacity: '1',
+          },
+        },
+        'pull-up': {
+          '0%': {
+            transform: 'translateY(40px)',
+            opacity: '0',
+          },
+          '60%': {
+            opacity: '.6',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+            opacity: '1',
+          },
+        },
+        'pull-down': {
+          '0%': {
+            transform: 'translateY(-40px)',
+            opacity: '0',
+          },
+          '60%': {
+            opacity: '.6',
+          },
+          '100%': {
+            transform: 'translateY(0)',
             opacity: '1',
           },
         },
