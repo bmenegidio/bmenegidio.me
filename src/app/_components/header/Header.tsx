@@ -11,9 +11,9 @@ export const Header = () => (
   >
     <Content>
       <div className={'flex flex-col gap-2'}>
-        <Avatar src={'./avatar.jpeg'} />
+        <Avatar className="animate-pull-down opacity-0" src={'./avatar.jpeg'} />
 
-        <div className="max-w-[550px]">
+        <div className="animate-pull-up max-w-[550px] opacity-0">
           <Heading variant={'title'}>Bruno Menegidio</Heading>
           <Heading variant={'title'}>Software Engineer 🧑🏻‍💻❤️</Heading>
           <MacOSWindow className={'my-10'}>
@@ -22,5 +22,6 @@ export const Header = () => (
         </div>
       </div>
     </Content>
+    x
   </header>
 );
