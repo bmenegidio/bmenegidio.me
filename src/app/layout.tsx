@@ -1,5 +1,6 @@
 import './globals.css';
 
+import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
 import { Inter, JetBrains_Mono, Patua_One } from 'next/font/google';
 
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetBrains_Mono.variable} ${patua_One.variable}`}>
       <body className={inter.className}>{children}</body>
+      <GoogleAnalytics gaId="G-MTJD4TTSVC" />
     </html>
   );
 }
