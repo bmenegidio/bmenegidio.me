@@ -1,5 +1,6 @@
 'use client';
 
+import { ChosenTechnologies } from '@/app/_components/chosenTechnologies/ChosenTechnologies';
 import { Experience } from '@/app/_components/experience/Experience';
 import { Footer } from '@/app/_components/footer/Footer';
 import { Header } from '@/app/_components/header/Header';
@@ -24,6 +25,10 @@ export default function Home() {
 
       <FadeInWhenVisible>
         <Experience />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <ChosenTechnologies />
       </FadeInWhenVisible>
 
       <Footer />
